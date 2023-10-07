@@ -10,10 +10,7 @@ Requirements:
 7. Flatten a nested list structure ✅
 8. Eliminate consecutive duplicates of list elements ✅
 9. Pack consecutive duplicates of list elements into sublists ✅
-10. Run-length encoding of a list
-
-https://davesquared.net/2008/03/99-problems-with-python-1-10.html
-
+10. Run-length encoding of a list ✅
 11. Modified run-length encoding
 12. Decode a run-length encoded list
 13. Run-length encoding of a list(direct solution)
