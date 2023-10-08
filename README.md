@@ -11,8 +11,8 @@ Requirements:
 8. Eliminate consecutive duplicates of list elements ✅
 9. Pack consecutive duplicates of list elements into sublists ✅
 10. Run-length encoding of a list ✅
-11. Modified run-length encoding
-12. Decode a run-length encoded list
+11. Modified run-length encoding ✅
+12. Decode a run-length encoded list ✅
 13. Run-length encoding of a list(direct solution)
 14. Duplicate the elements of a list
 15. Duplicate the elements of a list a given number of times
