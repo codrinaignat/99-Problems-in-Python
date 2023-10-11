@@ -13,7 +13,7 @@ Requirements:
 10. Run-length encoding of a list ✅
 11. Modified run-length encoding ✅
 12. Decode a run-length encoded list ✅
-13. Run-length encoding of a list(direct solution)
+13. Run-length encoding of a list(direct solution) ✅
 14. Duplicate the elements of a list
 15. Duplicate the elements of a list a given number of times
 16. Drop every N'th element from a list
