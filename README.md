@@ -26,5 +26,13 @@ Requirements:
 23. Extract a given number of randomly selected elements from a list
 24. Lotto: Draw N different random numbers from the set 1
 25. Generate a random permutation of the elements of a list
+26. Generate the combinations of K distinct objects chosen from the N elements of a list
+27. Group the elements of a set into disjoint subsets
+28. Sorting a list of lists according to length of sublists
+31. Determine whether a given integer number is prime
+32. Calculate the Greatest Common Divisor (GCD) using Euclid's algorithm
+33. Determine if two numbers are coprime
+34. Calculate Euclid's totient function
+35. Determine prime factors of a number
 
 https://wiki.python.org/moin/ProblemSets/99%20Prolog%20Problems%20Solutions
