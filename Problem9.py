@@ -1,7 +1,7 @@
 from itertools import groupby
 
-def group_duplicates(l_nums):
-    return [list(group) for key, group in groupby(l_nums)]
+def group_duplicates(list_nums):
+    return [list(group) for key, group in groupby(list_nums)]
 
 myList = [0, 1, 2, 2, 3, 4, 5, 5, 6, 7, 7, 9]
 print("Original list:") 

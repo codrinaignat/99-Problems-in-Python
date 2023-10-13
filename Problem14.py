@@ -1,5 +1,5 @@
-def duplicate(aList):
-    return [element for element in aList for i in (1,2)]
+def duplicateItems(myList):
+    return [element for element in myList for i in (1,2)]
 
-alist = [0, 1, 2, 3, 4, 5, 6]
-print(duplicate(alist))
+myList = [0, 1, 2, 3, 4, 5, 6]
+print(duplicateItems(myList))
