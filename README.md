@@ -30,9 +30,9 @@ Requirements:
  
  14- Duplicate the elements of a list ✅
  
- 15- Duplicate the elements of a list a given number of times
+ 15- Duplicate the elements of a list a given number of times ✅
  
- 16- Drop every N'th element from a list
+ 16- Drop every N'th element from a list ✅
  
  17- Split a list into two parts, the length of the first part is given
  
