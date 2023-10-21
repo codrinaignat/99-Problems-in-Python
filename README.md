@@ -34,9 +34,9 @@ Requirements:
  
  16- Drop every N'th element from a list ✅
  
- 17- Split a list into two parts, the length of the first part is given
+ 17- Split a list into two parts, the length of the first part is given ✅
  
- 18- Extract a slice from a list
+ 18- Extract a slice from a list ✅
  
  19- Rotate a list N places to the left
  
