@@ -44,7 +44,7 @@ Requirements:
  
  21- Insert an element at a given position into a list ✅
  
- 22- Create a list containing all integers within a given range
+ 22- Create a list containing all integers within a given range ✅
  
  23- Extract a given number of randomly selected elements from a list
  
