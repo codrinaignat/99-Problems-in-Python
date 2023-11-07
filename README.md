@@ -52,7 +52,7 @@ Requirements:
  
  25- Generate a random permutation of the elements of a list ✅
  
- 26- Generate the combinations of K distinct objects chosen from the N elements of a list
+ 26- Generate the combinations of K distinct objects chosen from the N elements of a list ✅
  
  27- Group the elements of a set into disjoint subsets
  
