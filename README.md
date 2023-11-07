@@ -118,3 +118,5 @@ Requirements:
 https://wiki.python.org/moin/ProblemSets/99%20Prolog%20Problems%20Solutions
 
 https://www.ic.unicamp.br/~meidanis/courses/mc336/problemas-lisp/L-99_Ninety-Nine_Lisp_Problems.html
+
+https://www.ic.unicamp.br/~meidanis/courses/mc336/2009s2/prolog/problemas/
