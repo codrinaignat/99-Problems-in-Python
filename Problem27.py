@@ -14,7 +14,7 @@ def disjointSubsets (setOfElements, setOfSubsets):
         
     if len(setOfElements) == sumOfElements:
         for j in range(0, numberOfGroups):
-            
+            #split here the set into subsets
     else:
         print("The number of elements in set does not match the sum of subsets array elements")
         
