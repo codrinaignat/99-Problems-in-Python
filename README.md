@@ -113,7 +113,9 @@ Requirements:
  62B- Collect the nodes at a given level in a list
  
  63- Construct a complete binary tree
- 
+
+
+https://docs.python.org/3/library/itertools.html
 
 https://wiki.python.org/moin/ProblemSets/99%20Prolog%20Problems%20Solutions
 
@@ -121,4 +123,3 @@ https://www.ic.unicamp.br/~meidanis/courses/mc336/problemas-lisp/L-99_Ninety-Nin
 
 https://www.ic.unicamp.br/~meidanis/courses/mc336/2009s2/prolog/problemas/
 
-https://docs.python.org/3/library/itertools.html
