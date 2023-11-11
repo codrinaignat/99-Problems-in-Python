@@ -9,21 +9,17 @@ def disjointSubsets(setOfElements, setOfSubsets):
         sumOfElements = sumOfElements + setOfSubsets[i]
     #print(sumOfElements)
     #print(numberOfGroups)
-
     setOfElementsList = list(setOfElements)
     #print(setOfElementsList)
-
     if len(setOfElementsList) == sumOfElements:
         for j in range(0, numberOfGroups):
             subsets = list(itertools.combinations(setOfElementsList, setOfSubsets[j]))
-            print(subsets)
+            subsetsListBackToSet = set(subsets)
+            print(subsetsListBackToSet)
     else:
         print("The number of elements in set does not match the sum of subsets array elements")
-    subsetsListBackToSet = set(subsets)
-    #print(subsetsListBackToSet)
-    return subsetsListBackToSet
+    return 
 
-mySet = {"banane", "pere", "mere", "gutui"}
+mySet = {"aldo", "beat", "carla", "david"}
 subsetLengths = [1, 2, 1]
-print("Here the program executed again:")
 print(disjointSubsets(mySet, subsetLengths))
