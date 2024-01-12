@@ -9,8 +9,9 @@ counter = 0
 for i in range(1, num+1):
     if (num % i) == 0:
         counter += 1
+        if counter > 2:
+            print("The number is not prime")
+            break
 
-if counter != 2:
-    print("The number is not prime")
-else:
-    print("The number is prime") 
+if counter == 2:
+    print("The number is prime")
