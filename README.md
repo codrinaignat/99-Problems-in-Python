@@ -60,7 +60,7 @@ Requirements:
  
  31- Determine whether a given integer number is prime ✅
  
- 32- Calculate the Greatest Common Divisor (GCD) using Euclid's algorithm
+ 32- Calculate the Greatest Common Divisor (GCD) using Euclid's algorithm ✅
  
  33- Determine if two numbers are coprime
  
