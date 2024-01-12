@@ -56,7 +56,7 @@ Requirements:
  
  27- Group the elements of a set into disjoint subsets - in progress ‼️
  
- 28- Sorting a list of lists according to length of sublists
+ 28- Sorting a list of lists according to length of sublists ✅
  
  31- Determine whether a given integer number is prime
  
