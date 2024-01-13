@@ -114,6 +114,28 @@ Requirements:
  
  63- Construct a complete binary tree
 
+ 64- Layout a binary tree (1)
+
+ 65- Layout a binary tree (2)
+
+ 66- Layout a binary tree (3)
+
+ 67- A string representation of binary trees
+
+ 68- Preorder and inorder sequences of binary trees
+
+ 69- Dotstring representation of binary trees
+
+ 70B- Check whether a given expression represents a multiway tree
+
+ 70C- Count the odes of a multiway tree
+
+ 70- Tree construction from a node string
+
+ 71- Determine the internal path length of a tree
+
+ 72- Construct the bottom-up order sequence of the tree nodes
+
 
 https://docs.python.org/3/library/itertools.html
 
