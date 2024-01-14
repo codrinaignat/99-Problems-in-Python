@@ -1,29 +1,29 @@
-N = 8 # (size of the chessboard)
+N = 8 # 8 i 8 - size of the chess chessBoard
 
-def solveNQueens(board, col):
-	if col == N:
-		print(board)
+def EightQueens(chessBoard, boardColumn):
+	if boardColumn == N:
+		print(chessBoard)
 		return True
 	for i in range(N):
-		if isSafe(board, i, col):
-			board[i][col] = 1
-			if solveNQueens(board, col + 1):
+		if notIntersecting(chessBoard, i, boardColumn):
+			chessBoard[i][boardColumn] = 1
+			if EightQueens(chessBoard, boardColumn + 1):
 				return True
-			board[i][col] = 0
+			chessBoard[i][boardColumn] = 0
 	return False
 
-def isSafe(board, row, col):
-	for x in range(col):
-		if board[row][x] == 1:
+def notIntersecting(chessBoard, boardRow, boardColumn):
+	for i in range(boardColumn):
+		if chessBoard[boardRow][i] == 1:
 			return False
-	for x, y in zip(range(row, -1, -1), range(col, -1, -1)):
-		if board[x][y] == 1:
+	for i, j in zip(range(boardRow, -1, -1), range(boardColumn, -1, -1)):
+		if chessBoard[i][j] == 1:
 			return False
-	for x, y in zip(range(row, N, 1), range(col, -1, -1)):
-		if board[x][y] == 1:
+	for i, j in zip(range(boardRow, N, 1), range(boardColumn, -1, -1)):
+		if chessBoard[i][j] == 1:
 			return False
 	return True
 
-board = [[0 for x in range(N)] for y in range(N)]
-if not solveNQueens(board, 0):
-	print("No solution found")
+chessBoard = [[0 for i in range(N)] for j in range(N)]
+if not EightQueens(chessBoard, 0):
+	print("There is no solution")
