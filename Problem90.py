@@ -1,4 +1,4 @@
-N = 8 # 8 i 8 - size of the chess chessBoard
+N = 8 # 8 x 8 - size of the chessboard
 
 def EightQueens(chessBoard, boardColumn):
 	if boardColumn == N:
