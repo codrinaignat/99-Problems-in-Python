@@ -62,7 +62,7 @@ Requirements:
  
  32- Calculate the Greatest Common Divisor (GCD) using Euclid's algorithm ✅
  
- 33- Determine if two numbers are coprime
+ 33- Determine if two numbers are coprime ✅
  
  34- Calculate Euclid's totient function
  
