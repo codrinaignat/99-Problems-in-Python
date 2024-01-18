@@ -157,7 +157,7 @@
 
  89- Bipartite graphs
 
- 90- Eight queens problem
+ 90- Eight queens problem ✅
 
  91- Knight's tour
 
