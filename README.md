@@ -171,7 +171,7 @@
 
  96- Syntax checker
 
- 97- Sudoku
+ 97- Sudoku ✅
 
  98- Nonograms
 
