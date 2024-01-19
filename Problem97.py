@@ -1,47 +1,47 @@
-N = 9
-def printing(arr):
-	for i in range(N):
-		for j in range(N):
+gridSize = 9
+def printMatrix(arr):
+	for i in range(gridSize):
+		for j in range(gridSize):
 			print(arr[i][j], end = " ")
 		print()
 
-def isSafe(grid, row, col, num):
+def safeToPopulate(grid, row, column, num):
 	for x in range(9):
 		if grid[row][x] == num:
 			return False
 
 	for x in range(9):
-		if grid[x][col] == num:
+		if grid[x][column] == num:
 			return False
 
 	startRow = row - row % 3
-	startCol = col - col % 3
+	startcolumn = column - column % 3
 	for i in range(3):
 		for j in range(3):
-			if grid[i + startRow][j + startCol] == num:
+			if grid[i + startRow][j + startcolumn] == num:
 				return False
-	return True
+	return True 
 
-def solveSudoku(grid, row, col):
-	if (row == N - 1 and col == N):
+def solveSudokuGrid(grid, row, column):
+	if (row == gridSize - 1 and column == gridSize):
 		return True
 
-	if col == N:
+	if column == gridSize:
 		row += 1
-		col = 0
+		column = 0
 
-	if grid[row][col] > 0:
-		return solveSudoku(grid, row, col + 1)
-	for num in range(1, N + 1, 1):
+	if grid[row][column] > 0:
+		return solveSudokuGrid(grid, row, column + 1)
+	for num in range(1, gridSize + 1, 1):
 
-		if isSafe(grid, row, col, num):
+		if safeToPopulate(grid, row, column, num):
 
-			grid[row][col] = num
+			grid[row][column] = num
 
-			if solveSudoku(grid, row, col + 1):
+			if solveSudokuGrid(grid, row, column + 1):
 				return True
 
-		grid[row][col] = 0
+		grid[row][column] = 0
 	return False
 
 grid = [[3, 0, 6, 5, 0, 8, 4, 0, 0],
@@ -54,7 +54,7 @@ grid = [[3, 0, 6, 5, 0, 8, 4, 0, 0],
 		[0, 0, 0, 0, 0, 0, 0, 7, 4],
 		[0, 0, 5, 2, 0, 6, 3, 0, 0]]
 
-if (solveSudoku(grid, 0, 0)):
-	printing(grid)
+if (solveSudokuGrid(grid, 0, 0)):
+	printMatrix(grid)
 else:
 	print("No solutions")
