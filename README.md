@@ -159,7 +159,7 @@
 
  90- Eight queens problem ✅
 
- 91- Knight's tour
+ 91- Knight's tour ✅
 
  92- Von Koch's conjecure
 
