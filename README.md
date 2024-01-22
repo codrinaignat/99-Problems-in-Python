@@ -1,5 +1,5 @@
 # 99-Problems-in-Python
-
+Trying to solve the http://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems set of problems in Python programming language.
 
  1- Find the last element of a list ✅
  
