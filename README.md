@@ -63,7 +63,7 @@ Trying to solve the http://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems s
  
  33- Determine if two numbers are coprime ✅
  
- 34- Calculate Euclid's totient function
+ 34- Calculate Euclid's totient function ✅
  
  35- Determine prime factors of a number
  
