@@ -67,7 +67,7 @@ Trying to solve the http://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems s
  
  35- Determine prime factors of a number ✅
  
- 36- Determine prime factorization of a number
+ 36- Determine prime factorization of a number - to be solved ‼️
  
  37- A more efficient totient function
  
