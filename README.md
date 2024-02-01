@@ -73,7 +73,7 @@ Trying to solve the http://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems s
  
  38- Compare totient functions - to be solved ‼️
  
- 39- Generate a list of primes in a given range
+ 39- Generate a list of primes in a given range- to be solved ‼️
  
  40- Goldbach Conjecture
  
