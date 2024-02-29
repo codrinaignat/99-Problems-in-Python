@@ -77,7 +77,7 @@ Trying to solve the http://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems s
  
  40- Goldbach Conjecture ✅
  
- 41- Print list of Goldbach compositions
+ 41- Print list of Goldbach compositions - to be solved ‼️
  
  46- Print a truth table for a logical expression of two variables
  
