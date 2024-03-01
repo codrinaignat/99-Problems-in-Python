@@ -67,17 +67,17 @@ Trying to solve the http://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems s
  
  35- Determine prime factors of a number ✅
  
- 36- Determine prime factorization of a number - to be solved ‼️
+ 36- Determine prime factorization of a number 
  
- 37- A more efficient totient function - to be solved ‼️
+ 37- A more efficient totient function
  
- 38- Compare totient functions - to be solved ‼️
+ 38- Compare totient functions
  
- 39- Generate a list of primes in a given range- to be solved ‼️
+ 39- Generate a list of primes in a given range
  
  40- Goldbach Conjecture ✅
  
- 41- Print list of Goldbach compositions - to be solved ‼️
+ 41- Print list of Goldbach compositions 
  
  46- Print a truth table for a logical expression of two variables
  
