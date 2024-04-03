@@ -161,7 +161,7 @@ Trying to solve the http://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems s
 
  91- Knight's tour ✅
 
- 92- Von Koch's conjecure
+ 92- Von Koch's conjecture
 
  93- An arithmetic puzzle
 
